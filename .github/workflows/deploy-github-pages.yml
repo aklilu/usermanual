@@ -4,16 +4,16 @@ env:
   # ###########################################################################
   #
   # For offline support: (set to 'true' / 'false')
-  NG_USE_SERVICE_WORKER: 'true'
+  NG_USE_SERVICE_WORKER: 'false'
   #
   # Use the "Offers" content-type: (set to 'true' / 'false')
-  NG_USE_OFFERS: 'true'
+  NG_USE_OFFERS: 'false'
   #
   # Use the "Q&A" content-type: (set to 'true' / 'false')
-  NG_USE_Q_AND_AS: 'true'
+  NG_USE_Q_AND_AS: 'false'
   #
   # When using "Q&A"s, you can enable search: (set to 'true' / 'false')
-  NG_USE_Q_AND_A_SEARCH: 'true'
+  NG_USE_Q_AND_A_SEARCH: 'false'
   #
   # Enable Feedback-prompt on Sub-Category and Offer pages (set to 'true' / 'false')
   NG_USE_FEEDBACK_PROMPT: 'false'
@@ -66,7 +66,7 @@ env:
   #
   # An (optional) footer at the bottom of the screen, can be overwritten on sub-pages per-region by each region's sheet.
   TXT_MAIN_FOOTER: >-
-    **Helpful Information**  \n
+    Built on [**Helpful Information as Aid**](https://github.com/rodekruis/helpful-information)  \n
     \n
   #
   # Contents of the 'error-page'
@@ -95,12 +95,10 @@ env:
     info
   # The readable label(s) on the link to the region-page
   REGIONS_LABELS: >-
-    Information
+    User Manual
   # The ID of the Google Sheet(s) that contains the content for the region
-  REGIONS_SHEET_IDS: "1XfoeVBU3zyD10XiHUM90z-50UusSMYOqB2D6EAoKFRE"
-  #REGIONS_SHEET_IDS: >- 
-  #  1XfoeVBU3zyD10XiHUM90z-50UusSMYOqB2D6EAoKFRE
-    
+  REGIONS_SHEET_IDS: >-
+    1XfoeVBU3zyD10XiHUM90z-50UusSMYOqB2D6EAoKFRE
 
 # #############################################################################
 #
